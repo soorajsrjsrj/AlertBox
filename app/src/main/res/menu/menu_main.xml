@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/ic_action_name">
     <item
         android:id="@+id/menuFirst"
         android:title="First" />
     <item
         android:id="@+id/menuSecond"
-        android:title="Favourite" />
+        android:title="Favourite"
+        android:icon="@drawable/ic_action_name"/>
     <item
         android:id="@+id/menuThird"
-        android:title="Location" />
+        android:title="Location"
+        android:icon="@drawable/ic_action_name"/>
     <item
         android:id="@+id/menuLogout"
-        android:title="Logout" />
+        android:title="Logout"
+        android:icon="@drawable/ic_action_name"/>
 </menu>
